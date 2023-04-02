@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 8vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ul li {
+    display: inline;
+    padding: 2vw;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 22px;
+    width: 450px;
+    padding: 0px 12px;
+}
+
+
+.btn:hover {
+    font-weight: bolder;
+    color: var(--main-bg-color);
+}
+
+.container {
+    min-height: calc(100vh - 8vh - 8vh);
+}
+
+.photo img {
+    width: 100vw;
+    height: 40vh;
+}
+
+.head h2 {
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 2vw;
+}
+
+.card-item p {
+    margin: 9px 0px 0px 28px;
+}
+
+.line .name {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+footer {
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Playfair Display', serif;
+}

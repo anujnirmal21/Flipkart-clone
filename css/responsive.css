@@ -1,0 +1,33 @@
+@media screen and (max-width : 1000px) {
+  .logo img {
+    width: 182px;
+    margin-top: 18px;
+  }
+
+  photo img {
+    width: 100vw;
+    height: 30vh;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .search input {
+    height: 34px;
+    width: 54vw;
+    padding: 0px 12px;
+    margin-bottom: 23px;
+  }
+
+  .btn {
+    background-color: white;
+    padding: 9px 51px 9px 12px;
+    margin: 25px 0px 48px 14px;
+    border: 0px;
+    width: 9vw;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+  }
+}
